@@ -1,0 +1,10 @@
+[ 2017-04-19T22:03:25+08:00 ] ::1 /MIFOOD2/index.php/Home/Index/page2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000119s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002530s ]
+
+[ 2017-04-19T22:03:36+08:00 ] ::1 /MIFOOD2/index.php/Home/Index/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000113s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001702s ]
+

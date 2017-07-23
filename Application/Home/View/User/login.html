@@ -1,0 +1,25 @@
+<html><body>
+	<form method="post" action="<?php echo U('User/loings');?>"  onSubmit="return chkinput1(this)">
+					<p class="ps s1"><input type="text" name="name" placeholder=" 用户名"></p>
+					<p class="ps s2"><input type="password" name="password" placeholder=" 密    码"></p>
+					<p class="us">
+						<span><input name="user" type="radio" checked="checked" value="user">用户登录</span>
+					</p>
+					<p><input class="submit" type="submit" name="submit" value="登录"></p>
+				</form>
+				<p class="links">
+					<a href="#">忘记密码?</a><a href="#">意见反馈</a>
+				</p>
+			</div>
+			<div class="hide">
+				<form method="post" action="<?php echo U('User/loing');?>" onSubmit="return chkinput2(this)">
+					<p class="ps s1"><input type="text" name="name" placeholder=" 用户名（字母开头 5~14位）"/></p>
+					<p class="ps s2"><input type="password" name="password" placeholder=" 密    码（字母数字 6~20位）"/></p>
+					<p class="ps s3"><input type="password" name="repeat_secret" placeholder=" 确认密码"/></p>
+					<p><input class="submit" type="submit" name="submit" value="注册" /></p>
+				</form>
+
+				
+<a href="#">忘记密码?</a><a href="#">意见反馈</a>				
+</body>
+</html>
